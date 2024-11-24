@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Hub</title>
+  <style>
+    /* Basic styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #4caf50;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    table th {
+      background: #4caf50;
+      color: white;
+    }
+    audio, video {
+      display: block;
+      margin: 20px auto;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Music Hub</h1>
+  <p>Your one-stop destination for great music and videos!</p>
+</header>
+
+<main>
+  <h2>Listen to Our Featured Song</h2>
+  <audio controls>
+    <source src="featured-song.mp3" type="audio/mpeg">
+    <source src="featured-song.ogg" type="audio/ogg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2>Watch Our Featured Music Video</h2>
+  <video controls>
+    <source src="featured-video.mp4" type="video/mp4">
+    <source src="featured-video.ogg" type="video/ogg">
+    Your browser does not support the video element.
+  </video>
+
+  <h2>Playlist</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Song Title</th>
+        <th>Artist</th>
+        <th>Duration</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Song One</td>
+        <td>Artist A</td>
+        <td>3:45</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Song Two</td>
+        <td>Artist B</td>
+        <td>4:05</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Song Three</td>
+        <td>Artist C</td>
+        <td>2:58</td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+
+<footer style="text-align: center; padding: 10px; background: #4caf50; color: white;">
+  &copy; 2024 Music Hub. All rights reserved.
+</footer>
+
+</body>
+</html>
